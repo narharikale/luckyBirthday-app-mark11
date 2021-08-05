@@ -46,3 +46,14 @@ button {
   color: var(--secondaryColor);
   background-color: var(--primaryColor);
 }
+.GitDiv {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: auto;
+  font-size: 1.5rem;
+  max-width: 30rem;
+}
+.link {
+  color: white;
+}

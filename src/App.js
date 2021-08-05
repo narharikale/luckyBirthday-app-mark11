@@ -67,6 +67,24 @@ export default function App() {
         {result[0]}
         <div style={{ margin: "1rem" }}>{result[1]}</div>
       </div>
+      <footer>
+        <div className="GitDiv">
+          <a className="link" href="https://github.com/narharikale">
+            <i class="lni lni-github-original social-links"></i>
+          </a>
+
+          <a
+            className="link"
+            href="https://in.linkedin.com/in/narhari-kale-5571a2191"
+          >
+            <i class="lni lni-linkedin-original social-links"></i>
+          </a>
+
+          <a className="link" href="https://twitter.com/NarhariKale4">
+            <i class="lni lni-twitter-original social-links"></i>
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
