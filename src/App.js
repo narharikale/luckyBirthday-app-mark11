@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./styles.css";
-import happy from "/src/images/congo.gif";
-import lose from "/src/images/lose.gif";
+import happy from "./congo.gif";
+import lose from "./lose.gif";
 
 let dateInput = "";
 let luckyNoInput = 0;
